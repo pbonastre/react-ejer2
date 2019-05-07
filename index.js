@@ -3,7 +3,8 @@ import { render } from 'react-dom';
 
 //React Component
 function Hello (){
-  return <h1> bienvenido a React </h1>
+  //return <h1> bienvenido a React </h1>
+return React.createElement('h1',null,'bienvenido a react')
 }
 
 
@@ -17,9 +18,8 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Hello/>
-      </div>
+      
+      React.createElement('div',null,Hello())
     );
   }
 }
