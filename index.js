@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 
 //React Component
-function Hello (){
+//function Hello (){
   //return <h1> bienvenido a React </h1>
-return React.createElement('h1',null,'bienvenido a react')
-}
+//return React.createElement('h1',null,'bienvenido a react')
+//}
+
+const Hello = (props) => <h1>bienVenido a react</h1>
 
 
 class App extends Component {
